@@ -1,0 +1,20 @@
+Data_Randomization      Data_Randomization
+E.Info.Mat              E.Info.Mat
+Expl.diag               producing the exponential diagnostic plots
+Joint.MLE.Expl          Joint.MLE.Expl
+Joint.MLE.NHPP          joint maximum likelihood estimation
+                        Non-Homogeneous Poisson Process
+K.ForwardStop           K.ForwardStop
+K.StrongStop            K.StrongStop
+KvsN                    KvsN
+NHPP.diag               producing the Non-Homogeneous Poisson Process
+                        diagnostic plots
+Threshold_Generator_Density
+                        Thershold_Generator_Density
+Threshold_Generator_Uniform
+                        Thershold_Generator_Uniform
+Threshold_Randomization
+                        Threshold_Randomization
+nhpp.nll                Non-Homogeneous Poisson Process negative
+                        log-likelihood
+norm.LRT                normal distribution likelihood ratio statistics

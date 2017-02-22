@@ -1,0 +1,15 @@
+Package: threshold4GPD
+Type: Package
+Title: Determine Threshold by Independent Increments Structure of MLE
+Version: 0.8
+Author: Warren Jin, Data61, CSIRO Australia and Mengchen Zu,
+        the Australian National University
+Maintainer: Warren Jin <Warren.Jin@csiro.au>
+Description: This is a package to determine threshold in extreme value
+            analysis. Independent Increments Structure of MLE is used
+            in this package to analyze the reasonable threshold for data set.
+Imports: ismev, mgcv, ADGofTest, dgof
+License: GPL-3
+LazyData: TRUE
+RoxygenNote: 5.0.1
+Built: R 3.3.1; ; 2016-10-26 09:12:04 UTC; unix

@@ -1,0 +1,110 @@
+* using log directory ‘/students/u5640103/Downloads/threshold4GPD.Rcheck’
+* using R version 3.3.1 (2016-06-21)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* checking for file ‘threshold4GPD/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘threshold4GPD’ version ‘0.8’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... NOTE
+Found the following hidden files and directories:
+  .RData
+  .Rhistory
+  .Rproj.user
+These were most likely included in error. See section ‘Package
+structure’ in the ‘Writing R Extensions’ manual.
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘threshold4GPD’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... NOTE
+Checking should be performed on sources prepared by ‘R CMD build’.
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... WARNING
+'library' or 'require' calls not declared from:
+  ‘ADGofTest’ ‘dgof’ ‘ismev’
+'library' or 'require' calls in package code:
+  ‘ADGofTest’ ‘dgof’ ‘ismev’
+  Please use :: or requireNamespace() instead.
+  See section 'Suggested packages' in the 'Writing R Extensions' manual.
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+NHPP.diag: warning in pp.fit(xdat = x, thresh = min(u), npy =
+  length(x)/M, show = F): partial argument match of 'thresh' to
+  'threshold'
+Data_Randomization: no visible global function definition for ‘runif’
+E.Info.Mat: no visible global function definition for ‘integrate’
+Expl.diag: no visible global function definition for ‘par’
+Expl.diag: no visible global function definition for ‘quantile’
+Expl.diag: no visible global function definition for ‘rnorm’
+Expl.diag: no visible global function definition for ‘plot’
+Expl.diag: no visible global function definition for ‘abline’
+Expl.diag: no visible global function definition for ‘qnorm’
+Expl.diag: no visible global function definition for ‘lines’
+Joint.MLE.Expl: no visible global function definition for ‘quantile’
+Joint.MLE.NHPP: no visible global function definition for ‘quantile’
+Joint.MLE.NHPP: no visible global function definition for ‘optim’
+Joint.MLE.NHPP: no visible global function definition for ‘median’
+KvsN: no visible global function definition for ‘lm’
+KvsN: no visible global function definition for ‘predict’
+NHPP.diag: no visible global function definition for ‘density’
+NHPP.diag: no visible global function definition for ‘ecdf’
+NHPP.diag: no visible global function definition for ‘quantile’
+NHPP.diag: no visible global function definition for ‘rnorm’
+NHPP.diag: no visible global function definition for ‘median’
+NHPP.diag: no visible global function definition for ‘plot’
+NHPP.diag: no visible global function definition for ‘abline’
+NHPP.diag: no visible global function definition for ‘text’
+NHPP.diag: no visible global function definition for ‘qnorm’
+NHPP.diag: no visible global function definition for ‘lines’
+NHPP.diag: no visible binding for global variable ‘pnorm’
+Threshold_Generator_Density: no visible global function definition for
+  ‘density’
+Threshold_Generator_Density: no visible global function definition for
+  ‘quantile’
+Threshold_Generator_Uniform: no visible global function definition for
+  ‘quantile’
+Threshold_Randomization: no visible global function definition for
+  ‘runif’
+nll.norm: no visible global function definition for ‘dnorm’
+norm.LRT: no visible global function definition for ‘sd’
+Undefined global functions or variables:
+  abline density dnorm ecdf integrate lines lm median optim par plot
+  pnorm predict qnorm quantile rnorm runif sd text
+Consider adding
+  importFrom("graphics", "abline", "lines", "par", "plot", "text")
+  importFrom("stats", "density", "dnorm", "ecdf", "integrate", "lm",
+             "median", "optim", "pnorm", "predict", "qnorm", "quantile",
+             "rnorm", "runif", "sd")
+to your NAMESPACE file.
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... WARNING
+'library' or 'require' call not declared from: ‘mvtnorm’
+* checking examples ... OK
+* checking PDF version of manual ... OK
+* DONE
+Status: 2 WARNINGs, 3 NOTEs
